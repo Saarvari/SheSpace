@@ -11,7 +11,6 @@ import csv
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-
 training = pd.read_csv('Capstone/Training_.csv')
 testing= pd.read_csv('Capstone/Testing_.csv')
 cols= training.columns
